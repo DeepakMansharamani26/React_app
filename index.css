@@ -1,0 +1,16 @@
+::-webkit-scrollbar{
+    background-color: whitesmoke;
+    width: 1rem;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: chocolate;
+    width: 2rem;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    background-clip: content-box;
+    border: 5px solid transparent;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+

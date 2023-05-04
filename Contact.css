@@ -1,0 +1,26 @@
+.section{
+    padding: 9rem 0 5rem 0;
+}
+.contact-form {
+    max-width: 50rem;
+    margin: auto;
+}
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;}
+
+    input[type="submit"] {
+        cursor: pointer;
+        transition: all 0.2s;}
+
+        input:hover {
+            background-color: rgb(249 249 255);
+            border: 1px solid rgba(98, 84, 243, 0.5);
+            color: red;
+            transform: scale(0.9);
+          }
+
+
+
+          
